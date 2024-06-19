@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add hover effect for sidebar image
     const sidebarImg = document.querySelector('.sidebar img');
     sidebarImg.addEventListener('mouseover', function () {
-        sidebarImg.style.transform = 'scale(1.05)';
+        sidebarImg.style.transform = 'scale(1.10)';
         sidebarImg.style.transition = 'transform 0.3s ease';
     });
     sidebarImg.addEventListener('mouseout', function () {
